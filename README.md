@@ -1,10 +1,10 @@
 
-Javascript game snake
+Snake Javascript using oop-principles
 [![Gaudenz77 - Snake-Game / A Javascript-Project](https://img.shields.io/static/v1?label=Gaudenz77&message=Snake-Game+%2F+A+Javascript-Project&color=2ea44f&style=for-the-badge&logo=js)](https://github.com/Gaudenz77/snake_game)
 ---
 
 ---
-# SNAKE-GAME
+# SNAKE-GAME Reloaded, using oop-principles
 
 
 ## Usage: 
