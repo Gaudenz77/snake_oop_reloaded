@@ -1,10 +1,13 @@
 
 Snake Javascript using oop-principles
-[![Gaudenz77 - Snake-Game / A Javascript-Project](https://img.shields.io/static/v1?label=Gaudenz77&message=Snake-Game+%2F+A+Javascript-Project&color=2ea44f&style=for-the-badge&logo=js)](https://github.com/Gaudenz77/snake_game)
----
+[![Gaudenz77 -  snake_oop_reloaded ](https://img.shields.io/static/v1?label=Gaudenz77&message=+snake_oop_reloaded+&color=2ea44f&style=for-the-badge&logo=javascript&logoColor=%23FFFF00)](https://github.com/Gaudenz77/snake_oop_reloaded)
 
 ---
 # SNAKE-GAME Reloaded, using oop-principles
+## Try adding various features to improve game and entertainment quality, features such as:
+* TBD
+* TBD
+* TBD
 
 
 ## Usage: 
@@ -19,13 +22,13 @@ Snake Javascript using oop-principles
 ----
 ----
 ## License:
-* none, free use, please give credential at my github [@Gaudenz77](https://github.com/Gaudenz77)
+* none, free use, please consider add my as favourite or notice in readme of yours of my github [@Gaudenz77](https://github.com/Gaudenz77)
 ----
 ## Tools Used:
 * HTML, CSS, Javascript
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Bootstrap_5.2](https://getbootstrap.com/)
-* [Github](https://github.com/Gaudenz77/snake_game) (for file repo/sharing/workflow)
+* [Github](https://github.com/Gaudenz77/snake_oop_reloaded) (for file repo/sharing/workflow)
 * Internet for research
 * imagination 
 * feeling for details
@@ -34,7 +37,7 @@ Snake Javascript using oop-principles
 ## Main Element:
 <div style="text-align:center; font-size:20px">
 
-[Github](https://github.com/Gaudenz77/snake_game)<br>
+[Snake Reloaded on Github](https://github.com/Gaudenz77/snake_oop_reloaded)<br>
 
 </div>
 
