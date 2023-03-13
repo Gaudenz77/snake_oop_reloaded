@@ -8,7 +8,7 @@ class Game {
 
         // actors
         this.board;
-        this.foodArray = []; // array to hold food instances
+        this.food;
         this.snake;
 
         // snake's movement direction
@@ -30,19 +30,12 @@ class Game {
     prepareActors(restart) {
         if (!restart) {
             this.board = new Board(this.rows, this.cols, this.blockSize, this.canvasElementId);
+            this.food = new Food(this.board);
             this.snake = new Snake(this.board);
             this.direction = new Direction();
-
-            // create three instances of the Food class and push them into the foodArray
-            
-            for (let i = 0; i < 5; i++) {
-              const food = new Food(this.board);
-              this.foodArray.push(food);
-            }
         }
         else {
-            // reset the position of each food instance
-            this.foodArray.forEach((food) => food.place());
+            this.food.place();
             this.snake.initialize();
             this.direction.initialize();
         }
@@ -100,17 +93,14 @@ class Game {
      */
     update() {
         this.board.draw();
-
-        // draw and update each instance of the Food class in the foodArray
-        this.foodArray.forEach((food) => {
-          food.draw();
-          if (this.snake.hit(food)) {
-              this.snake.eat(food);
-      
-              // place more food for the next update, but do not draw it yet
-              food.place();
-          }
-        });
+        this.food.draw();
+    
+        if (this.snake.hit(this.food)) {
+            this.snake.eat(this.food);
+    
+            // place more food for the next update, but do not draw it yet
+            this.food.place();
+        }
 
         this.snake.update(this.direction);
     
