@@ -183,4 +183,18 @@ function placeFood() {
 // ----------------------------------------------------------------
 
 
+/* class Board {
+constructor(blockSize, rows, cols) {
+    this.board = document.getElementById("board");
+    this.rows = rows; 
+    this.cols = cols;
+    this.board.height = rows * blockSize;
+    this.board.width = cols * blockSize;
+    this.context = board.getContext("2d");
+    this.context.fillStyle = "black";
+    this.context.fillRect(0, 0, this.board.width, this.board.height);
+    }};
+// Example usage:
+// new Board(25, 20, 20); */ 
+
 

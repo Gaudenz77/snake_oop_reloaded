@@ -10,7 +10,7 @@ class Direction  {
         this.y  = 0;
     }
 
-    // changes direction after event-input (arrow, btn)
+// changes direction after event-input (arrow, btn)
 
     /**
      * Changes the direction after the given event occured
@@ -49,26 +49,3 @@ class Direction  {
         }
     }
 }
-
-/* function changeDirection(e) {
-
-    if(e.code == "ArrowUp" && velocityY != 1) {
-        velocityX = 0;
-        velocityY = -1;
-    }
-
-    else if(e.code == "ArrowDown" && velocityY != -1) {
-        velocityX = 0;
-        velocityY = 1;
-    }
-
-    else if(e.code == "ArrowLeft" && velocityX != 1) {
-        velocityX = -1;
-        velocityY = 0;
-    }
-
-    else if(e.code == "ArrowRight" && velocityX != -1) {
-        velocityX = 1;
-        velocityY = 0;
-    }
-}; */
