@@ -33,14 +33,15 @@ class Game {
         this.board = new Board(this.rows, this.cols, this.blockSize, this.canvasElementId);
         this.snake = new Snake(this.board);
         this.direction = new Direction();
-  
-        // create three instances of the Food class and push them into the foodArray
-        for (let i = 0; i < 10; i++) {
+        
+        // create n instances  (i < n in loop) of the Food class and push them into the foodArray
+        /* let number = document.getElementById("myNumberField").value; */
+        for (let i = 0; i < 5; i++) {
           const food = new Food(this.board);
           this.foodArray.push(food);
         }
-  
-        // Create 5 obstacles
+        
+        // Create n instances  (i < n in loop) of the Food class and push them into the foodArray
         for (let i = 0; i < 20; i++) {
           const obstacle = new Obstacle(this.board);
           this.obstacles.push(obstacle);
@@ -52,7 +53,6 @@ class Game {
         this.snake.initialize();
         this.direction.initialize();
       }
-  
       this.update();
       this.start();
     }
